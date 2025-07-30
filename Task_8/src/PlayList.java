@@ -21,6 +21,10 @@ public class PlayList   {
 		this.current = 0;
 		
 	}
+
+	public replcae(){
+		system.out.println("Replcaing song");
+	}
 	
 	public PlayList (String m3uPathname)     {
 		this.audioFiles = new LinkedList<>();
