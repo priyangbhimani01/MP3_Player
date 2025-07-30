@@ -77,7 +77,9 @@ public class PlayList implements Iterable<AudioFile>  {
 		return audioFiles.size();
 	}
 	
-	
+	public replace(){
+		System.out.println("replace songs");
+	}
 	
 	public AudioFile currentAudioFile () {
 		return this.iterator.receiveCurrentAudioFle();
